@@ -11,7 +11,9 @@ internal class Program
         // Chars chars = new Chars();
         // chars.SomeCharMethods();
 
-        ParsFromStrings parsFromStrings = new ParsFromStrings();
-        parsFromStrings.UsingTryParse();
+        // ParsFromStrings parsFromStrings = new ParsFromStrings();
+        // parsFromStrings.UsingTryParse();
+
+        DateTimeAndTimeSpan dtObject = new DateTimeAndTimeSpan();
     }
 }
