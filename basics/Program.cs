@@ -100,7 +100,10 @@ internal class Program
 
         //Console.WriteLine(bool.FalseString);
         //Console.WriteLine(bool.TrueString);
+    }
 
+    public static void Chars()
+    {
 
     }
 }
