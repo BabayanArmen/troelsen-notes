@@ -42,6 +42,7 @@ internal class Program
 
 
         //VariableDeclarations();
+        Types();
 
     }
 
@@ -81,6 +82,24 @@ internal class Program
     {
         //var x = 12;
         //Console.WriteLine(x.GetType());
+
+        //int x = 12;
+        //Console.WriteLine(x.GetHashCode()); //// 12
+
+        //string a = "Hello";
+        //Console.WriteLine(a.GetHashCode());
+
+        //Console.WriteLine(int.MinValue);
+        //Console.WriteLine(int.MaxValue);
+        //Console.WriteLine(double.Epsilon);
+        //Console.WriteLine(double.PositiveInfinity);
+        //Console.WriteLine(double.NegativeInfinity);
+
+        //var x = 3L; //// setting type to long
+        //var y = 3.34f; //// setting type to float
+
+        //Console.WriteLine(bool.FalseString);
+        //Console.WriteLine(bool.TrueString);
 
 
     }
