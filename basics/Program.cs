@@ -14,11 +14,12 @@ internal class Program
         //{
         //    Console.WriteLine(arg);
         //}
-        string[] theArgs = Environment.GetCommandLineArgs();
-        foreach(string arg in theArgs)
-        {
 
-        }
+        //string[] theArgs = Environment.GetCommandLineArgs();
+        //foreach(string arg in theArgs)
+        //{
+
+        //}
 
         //var value = System.Console.ReadLine();
         //System.Console.WriteLine("This is my first code in C% " + value);
@@ -39,7 +40,11 @@ internal class Program
         //p.Age = 40;
         //p.Print();
 
+
+        //VariableDeclarations();
+
     }
+
 
     //struct Person
     //{
@@ -51,4 +56,32 @@ internal class Program
     //        Console.WriteLine($"Hello my name is {Name}, I am {Age} years old");
     //    }
     //}
+
+    public static void VariableDeclarations()
+    {
+        int num = 12;
+        int num2 = new int(); //// before initilizition is 0
+        num2 = 34;
+
+        //// or short version
+        int num3 = new(); //// before initilizition is 0
+        num3 = 45;
+
+        bool aaa = default; //// false
+    }
+
+    public static void WorkWithConsole()
+    {
+        //var a = "aaa";
+        //var b = "bbb";
+        //Console.WriteLine("a is {0}, b is {1}", a, b);
+    }
+
+    public static void Types()
+    {
+        //var x = 12;
+        //Console.WriteLine(x.GetType());
+
+
+    }
 }
