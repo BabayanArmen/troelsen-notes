@@ -42,7 +42,9 @@ internal class Program
 
 
         //VariableDeclarations();
-        Types();
+        //Types();
+        //Chars();
+        ParseFromString();
 
     }
 
@@ -104,6 +106,55 @@ internal class Program
 
     public static void Chars()
     {
+        //string a = "abcd";
+        //Console.WriteLine(a[0]); //// a
+
+        //Console.WriteLine(char.IsDigit('a')); //// false
+        //Console.WriteLine(char.IsLetter('a')); //// true
+
+        //Console.WriteLine(char.IsWhiteSpace("abc dfe", 3));
+
+        //Console.WriteLine(char.IsPunctuation("?", 0));
+
+        //bool b = bool.Parse("True");
+        //Console.WriteLine(b);
+        //Console.WriteLine(b.GetType());
+
+        //double x = double.Parse("12.25");
+        //Console.WriteLine(x);
+    }
+
+    public static void ParseFromString()
+    {
+        //var res = bool.TryParse("True", out bool b);
+        //Console.WriteLine(res);
+
+        if(bool.TryParse("True", out bool b))
+        {
+            Console.WriteLine("bool is {0}", b);
+        }
+        else
+        {
+            Console.WriteLine("oops");
+        }
+
+        if(int.TryParse("a", out int res))
+        {
+            Console.WriteLine("res is {0}", res);
+        }
+        else
+        {
+            Console.WriteLine("oops");
+        }
+    }
+
+    public static void DateTiemAndTimeSpan()
+    {
 
     }
+
+
+
+
+
 }
