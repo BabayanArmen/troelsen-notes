@@ -44,7 +44,9 @@ internal class Program
         //VariableDeclarations();
         //Types();
         //Chars();
-        ParseFromString();
+        //ParseFromString();
+        DateTiemAndTimeSpan();
+
 
     }
 
@@ -126,6 +128,9 @@ internal class Program
 
     public static void ParseFromString()
     {
+        //var x = int.Parse("3");
+        //Console.WriteLine(x);
+
         //var res = bool.TryParse("True", out bool b);
         //Console.WriteLine(res);
 
@@ -150,7 +155,8 @@ internal class Program
 
     public static void DateTiemAndTimeSpan()
     {
-
+        DateTime date = new DateTime();
+        Console.WriteLine(date);
     }
 
 
